@@ -35,7 +35,7 @@ public class Concentration extends JFrame {
 	private final int C = 4;   //columns of the board (constant)
 	private int numMatch = 0;  // keep tracking for number button that is matching 
 	//create a label for the message
-	final JLabel msg = new JLabel("Select the first location.");
+	final JLabel msg = new JLabel("Select the first location....");
 	//create a panel for the board with a GridLayout
 	final JPanel pBoard = new JPanel(new GridLayout(R, C));
 	//create a list to store the cards numbers and shuffle them
